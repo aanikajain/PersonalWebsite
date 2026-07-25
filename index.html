@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <meta name="description" content="Personal site of Your Name — work, writing, and contact." />
+  <link rel="stylesheet" href="style.css" />
+  <script src="theme.js" defer></script>
+  <script src="quotes.js" defer></script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header-row">
+        <a class="site-name" href="index.html">Your Name</a>
+        <nav>
+          <a href="about.html">About</a>
+          <a href="work.html">Work</a>
+          <a href="writing.html">Writing</a>
+          <a href="contact.html">Contact</a>
+          <button id="theme-toggle" aria-label="Toggle theme">☾</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="quote-section">
+        <blockquote
+          id="daily-quote"
+          class="quote-block"
+          tabindex="0"
+          role="button"
+          aria-expanded="false"
+        >
+          <p id="quote-text" class="quote-text"></p>
+          <p id="quote-author" class="quote-author"></p>
+        </blockquote>
+        <p id="quote-hint" class="quote-hint">Click the quote to learn more</p>
+        <p id="quote-context" class="quote-context hidden"></p>
+      </section>
+
+      <div class="home-section">
+        <h2>Hi, I'm Your Name</h2>
+        <p>
+          A short, confident sentence or two about who you are and what you do
+          goes here.
+        </p>
+        <a class="teaser-link" href="about.html">More about me →</a>
+      </div>
+
+      <div class="home-section">
+        <h2>Portfolio</h2>
+        <p>A brief note on the kind of work you do or projects you build.</p>
+        <a class="teaser-link" href="work.html">See my work →</a>
+      </div>
+
+      <div class="home-section">
+        <h2>Writing</h2>
+        <p>A brief note on what you write about.</p>
+        <a class="teaser-link" href="writing.html">Read my writing →</a>
+      </div>
+    </main>
+
+    <footer>
+      <a href="contact.html">Get in touch</a>
+    </footer>
+  </div>
+</body>
+</html>
