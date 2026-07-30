@@ -5,8 +5,8 @@
  * and rolls over to the next quote at local midnight.
  */
 var QUOTES = [
-  { text: "Placeholder quote number one about doing good work.", author: "Author One", context: "A sentence of extra context or source information about this quote." },
-  { text: "Placeholder quote number two about staying curious.", author: "Author Two", context: "A sentence of extra context or source information about this quote." },
+  { text: "You miss 100% of the shots you don't take.", author: "Wayne Gretzky", context: "Something I tell myself to convince myself to take a risk. It's a reminder that sitting safely on the sidelines guarantees zero mistakes, but it also guarantees zero magic. Missing a shot stings for a minute, sure, but wondering "what if?" forever? That’s just exhausting. So go ahead and take the awkward swing, send the text, or try the crazy idea—because even if you completely miss the net, at least you’re in the game." },
+  { text: "You Got This.", author: "Unknown", context: "What I tell myself when I feel like I can't do something and want to push through it. Often followed up with /"" take it one step at a time /"" or accept that chaos is life's co-pilot and hope for the best." },
   { text: "Placeholder quote number three about patience and craft.", author: "Author Three", context: "A sentence of extra context or source information about this quote." },
   { text: "Placeholder quote number four about starting small.", author: "Author Four", context: "A sentence of extra context or source information about this quote." },
   { text: "Placeholder quote number five about learning from failure.", author: "Author Five", context: "A sentence of extra context or source information about this quote." },
